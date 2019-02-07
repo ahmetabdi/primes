@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app_base:
+    build:
+      context: .
+    image: app_base
+    stdin_open: true
+    tty: true
+  app:
+    image: app_base
+    volumes:
+      - .:/app
+    command: ruby lib/primes.rb -c 10
+    depends_on:
+      - app_base
