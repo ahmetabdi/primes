@@ -15,6 +15,7 @@ If you want to change the count of how many are printed you can update the comma
 Alternatively within the container run the command manually.
 
 `$ docker-compose run --rm app bash`
+
 `$ ruby lib/primes.rb --count 10`
 
 ### Running locally
