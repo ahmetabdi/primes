@@ -2,6 +2,8 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/945274ff8b7465c5f5b1/maintainability)](https://codeclimate.com/github/ahmetabdi/primes/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/945274ff8b7465c5f5b1/test_coverage)](https://codeclimate.com/github/ahmetabdi/primes/test_coverage)
+[![Build Status](https://travis-ci.org/ahmetabdi/primes.svg?branch=master)](https://travis-ci.org/ahmetabdi/primes)
+
 ## Usage
 
 ### Running through Docker
