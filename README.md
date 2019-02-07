@@ -10,6 +10,11 @@ Run `docker-compose up` in the root of this applications folder
 
 If you want to change the count of how many are printed you can update the command that is run inside the docker-compose.yml on line 13 it is currently set to create a 10x10 table.
 
+Alternatively within the container run the command manually.
+
+`$ docker-compose run --rm app bash`
+`$ ruby lib/primes.rb --count 10`
+
 ### Running locally
 
 `$ cd primes`
