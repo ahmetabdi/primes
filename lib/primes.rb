@@ -5,8 +5,6 @@ require_relative 'primes/generator'
 
 require 'optparse'
 
-ARGV << '-h' if ARGV.empty?
-
 options = {}
 
 OptionParser.new do |opts|
